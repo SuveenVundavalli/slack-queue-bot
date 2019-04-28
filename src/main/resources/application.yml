@@ -1,0 +1,8 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+  datasource:
+    url: jdbc:mysql://localhost:3306/slack_queue_bot?zeroDateTimeBehavior=convertToNull&useLegacyDatetimeCode=false
+    username: user
+    password: password

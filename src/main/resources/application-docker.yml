@@ -1,0 +1,3 @@
+spring:
+  datasource:
+    url: jdbc:mysql://db:3306/slack_queue_bot?zeroDateTimeBehavior=convertToNull&useLegacyDatetimeCode=false
